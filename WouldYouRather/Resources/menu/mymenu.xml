@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/action_add_question"
+		android:title="Add Question"
+		android:orderInCategory="100"
+		
+       />
+	<item android:id="@+id/action_skip"
+		android:title="Skip Question"
+		android:orderInCategory="200"
+		
+       />
+	<item android:id="@+id/action_back"
+		android:title="Go back"
+		android:orderInCategory="400"
+		
+       />
+</menu>

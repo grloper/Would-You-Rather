@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30534300314",
+    "firebase_url": "https://eitanprojectwyr-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "eitanprojectwyr",
+    "storage_bucket": "eitanprojectwyr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30534300314:android:9cfa1a9890f851d9dde523",
+        "android_client_info": {
+          "package_name": "com.companyname.wouldyourather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30534300314-tdg88jvgpf88m35ub6g9d47g6ckkg4qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi05_nUPL5Eseao_VhbXwH41qObm9ZpBE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30534300314-tdg88jvgpf88m35ub6g9d47g6ckkg4qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

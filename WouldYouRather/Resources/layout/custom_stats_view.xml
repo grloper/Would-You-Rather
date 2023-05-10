@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/tvRedStats"
+            android:layout_width="195dp"
+            android:layout_height="90dp"
+            android:text="Red - 80%"
+            tools:ignore="HardcodedText"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:background="@drawable/roundbordersred"
+            android:textColor="#000000"
+        />
+        <TextView
+            android:id="@+id/tvBlueStats"
+            android:layout_width="190dp"
+            android:layout_height="90dp"
+            android:text="Blue - 20%"
+            tools:ignore="HardcodedText"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:background="@drawable/roundbordersblue"
+            android:textColor="#000000"
+        />
+
+    </LinearLayout>
+</LinearLayout>
+      

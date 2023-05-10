@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="nickname"
+        android:layout_marginTop="20sp"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/etUser"
+        android:background="@drawable/rbnormal"
+        android:inputType="text"
+        tools:ignore="HardcodedText" 
+    />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/etMail"
+        android:layout_margin="20sp"
+        android:background="@drawable/rbnormal"
+        android:inputType="text"
+        tools:ignore="HardcodedText" 
+    />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/etPass"
+        android:background="@drawable/rbnormal"
+        android:inputType="text" 
+        tools:ignore="HardcodedText" 
+    />
+    
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:buttonTint="#fff"
+        android:text="Save password"
+        tools:ignore="HardcodedText" 
+        android:id="@+id/cbPassword"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/btnLogin"
+        tools:ignore="HardcodedText" 
+        android:text="login"
+        android:backgroundTint="#3c434f"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:id="@+id/btnReg"
+        android:backgroundTint="#3c434f"
+        tools:ignore="HardcodedText" 
+        android:layout_margin="20sp"
+        android:text="Register"
+        />
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:id="@+id/btnGuest"
+        tools:ignore="HardcodedText" 
+        android:text="Login as a guest"
+        />
+<TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:clickable="true"
+        android:layout_gravity="center"
+        android:id="@+id/btnReset"
+        android:text="Reset password"
+        tools:ignore="HardcodedText" 
+        android:textColor="#fff"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tvResult"/>
+</LinearLayout>
